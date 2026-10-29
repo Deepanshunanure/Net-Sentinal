@@ -1,0 +1,21 @@
+{
+  "accuracy": 0.8593915081880613,
+  "macro_precision": 0.7477554102807379,
+  "macro_recall": 0.7546775374999664,
+  "macro_f1": 0.7440056468067975,
+  "test_samples": 242304,
+  "class_states": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "label_names": {
+    "0": "BENIGN",
+    "1": "DDoS",
+    "2": "PortScan",
+    "3": "BruteForce",
+    "4": "DoS"
+  }
+}

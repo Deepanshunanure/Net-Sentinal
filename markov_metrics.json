@@ -1,0 +1,41 @@
+{
+  "model": "Markov Random Field",
+  "accuracy": 0.7632478209191759,
+  "features": [
+    "SYN Flag Count",
+    "Flow Packets/s",
+    "Flow Bytes/s",
+    "AnomalyScore"
+  ],
+  "class_states": [
+    0,
+    1
+  ],
+  "classification_report": {
+    "BENIGN": {
+      "precision": 0.7632478209191759,
+      "recall": 1.0,
+      "f1-score": 0.8657294928869352,
+      "support": 184938.0
+    },
+    "DDoS": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 57366.0
+    },
+    "accuracy": 0.7632478209191759,
+    "macro avg": {
+      "precision": 0.38162391045958793,
+      "recall": 0.5,
+      "f1-score": 0.4328647464434676,
+      "support": 242304.0
+    },
+    "weighted avg": {
+      "precision": 0.5825472361378704,
+      "recall": 0.7632478209191759,
+      "f1-score": 0.6607661489514166,
+      "support": 242304.0
+    }
+  }
+}
